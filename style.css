@@ -351,3 +351,86 @@ header nav .btn button {
 .fifth-section img {
   border-radius: 48px;
 }
+
+.sixth-section {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 120px 0;
+  align-items: center;
+}
+
+.sixth-section .text h2 {
+  color: rgb(0, 0, 0);
+  font-family: var(--font-Raleway);
+  font-size: 97px;
+  font-weight: 700;
+  line-height: 120%;
+}
+.sixth-section .form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.sixth-section .input-box {
+  display: flex;
+  flex-direction: column;
+  row-gap: 4px;
+  align-items: start;
+}
+
+.sixth-section .form label {
+  color: rgb(0, 0, 0);
+  font-family: var(--font-Inter);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 120%;
+}
+.sixth-section .form input {
+  padding: 20px 32px 20px 32px;
+  border: 1px solid rgb(214, 221, 237);
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+  outline: none;
+  width: 497px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.sixth-section .form input::placeholder {
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: var(--font-Inter);
+}
+
+.sixth-section .form textarea {
+  width: 497px;
+  height: 135px;
+  padding: 20px 32px 20px 32px;
+  box-sizing: border-box;
+  border: 1px solid rgb(214, 221, 237);
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+  outline: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+.sixth-section .form textarea::placeholder {
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: var(--font-Inter);
+}
+
+.sixth-section .form button {
+  padding: 19px 101px 19px 101px;
+  color: rgb(255, 255, 255);
+  font-family: var(--font-Raleway);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  border-radius: 10px;
+  background: rgb(78, 71, 255);
+  border: none;
+}
