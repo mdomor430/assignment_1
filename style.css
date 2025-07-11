@@ -11,6 +11,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  padding-bottom: 120px;
 }
 header {
   width: 100%;
@@ -32,6 +33,42 @@ header nav .btn button {
   border: none;
   border-radius: 10px;
   background: rgb(78, 71, 255);
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.hero-section .text-section {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  align-items: center;
+}
+
+.hero-section h3 {
+  color: rgb(37, 36, 50);
+  font-size: 65px;
+  font-weight: 700;
+  line-height: 76px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.hero-section button {
+  padding: 12px 36px 12px 36px;
+  border-radius: 10px;
+  background: rgb(78, 71, 255);
+  border: none;
   color: rgb(255, 255, 255);
   font-size: 16px;
   font-weight: 700;
