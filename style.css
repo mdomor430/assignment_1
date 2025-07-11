@@ -33,9 +33,18 @@ section {
 header {
   width: 100%;
 }
+button {
+  background-color: rgb(78, 71, 255);
+  color: rgb(255, 255, 255);
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(148, 145, 241);
+}
 
 header nav {
-  width: 80%;
+  width: 1280px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -95,16 +104,10 @@ header nav .btn button {
   line-height: 150%;
   letter-spacing: 0%;
   text-align: center;
-  cursor: pointer;
-  transition: 0.3s ease-in-out;
-}
-
-.hero-section button:hover {
-  background-color: rgb(62, 55, 255);
 }
 
 .second-section {
-  width: 80%;
+  width: 1280px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -148,7 +151,7 @@ header nav .btn button {
 }
 
 .third-section {
-  width: 80%;
+  width: 1280px;
   margin: 0 auto;
   padding: 50px 80px 50px 80px;
   border-radius: 24px;
@@ -229,7 +232,7 @@ header nav .btn button {
 }
 
 .fourth-section {
-  width: 80%;
+  width: 1280px;
   margin: 0 auto;
   padding: 120px 0;
   display: flex;
@@ -303,7 +306,7 @@ header nav .btn button {
 }
 
 .fifth-section {
-  width: 80%;
+  width: 1280px;
   margin: 0 auto;
   height: 696.77px;
   display: flex;
@@ -353,7 +356,7 @@ header nav .btn button {
 }
 
 .sixth-section {
-  width: 80%;
+  width: 1280px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -387,6 +390,7 @@ header nav .btn button {
   font-weight: 500;
   line-height: 120%;
 }
+
 .sixth-section .form input {
   padding: 20px 32px 20px 32px;
   border: 1px solid rgb(214, 221, 237);
@@ -397,6 +401,7 @@ header nav .btn button {
   font-size: 16px;
   font-weight: 500;
 }
+
 .sixth-section .form input::placeholder {
   font-weight: 500;
   color: rgba(0, 0, 0, 0.5);
@@ -433,4 +438,51 @@ header nav .btn button {
   border-radius: 10px;
   background: rgb(78, 71, 255);
   border: none;
+}
+
+.footer-section {
+  height: 428px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-top: 1.5px solid rgb(0, 0, 0, 0.1);
+}
+.footer-section footer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.footer-section footer .logo {
+  color: rgb(78, 71, 255);
+  font-family: var(--font-Inter);
+  font-size: 100px;
+  font-weight: 900;
+  line-height: 121px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.footer-section footer p {
+  color: rgb(137, 135, 161);
+  font-family: var(--font-Inter);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.footer-section footer .nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.footer-section footer .nav-links a {
+  color: rgb(137, 135, 161);
+  font-family: var(--font-Inter);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  text-decoration: none;
 }
