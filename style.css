@@ -5,6 +5,15 @@
   box-sizing: border-box;
   font-family: 'Raleway', sans-serif;
 }
+
+#main {
+  width: 100%;
+}
+
+section {
+  width: 100%;
+}
+
 .bg-background {
   background-image: url('./Assets/Hero-bg.png');
   height: 698px;
@@ -13,9 +22,11 @@
   background-size: cover;
   padding-bottom: 120px;
 }
+
 header {
   width: 100%;
 }
+
 header nav {
   width: 80%;
   margin: 0 auto;
@@ -23,11 +34,13 @@ header nav {
   justify-content: space-between;
   padding: 20px 0;
 }
+
 header nav .logo h3 {
   color: rgb(78, 71, 255);
   font-size: 34px;
   font-weight: 800;
 }
+
 header nav .btn button {
   padding: 12px 36px 12px 36px;
   border: none;
@@ -75,4 +88,52 @@ header nav .btn button {
   line-height: 150%;
   letter-spacing: 0%;
   text-align: center;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.hero-section button:hover {
+  background-color: rgb(62, 55, 255);
+}
+
+.second-section {
+  width: 80%;
+  margin: 120px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.second-section .text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  align-items: start;
+}
+
+.second-section .text h3 {
+  color: rgb(37, 36, 50);
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 49px;
+}
+
+.second-section .text p {
+  color: rgba(37, 36, 50, 0.5);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.second-section .text button {
+  padding: 12px 36px 12px 36px;
+  border-radius: 10px;
+  background: rgb(78, 71, 255);
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+  color: white;
+}
+
+.second-section .img img {
+  border-radius: 48px;
 }
