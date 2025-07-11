@@ -1,13 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --font-Inter: 'Inter', sans-serif;
+  --font-Raleway: 'Raleway', sans-serif;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Raleway', sans-serif;
+  font-family: var(--font-Raleway);
 }
 
 #main {
   width: 100%;
+  background: rgb(245, 248, 255);
 }
 
 section {
@@ -91,22 +98,24 @@ header nav .btn button {
   cursor: pointer;
   transition: 0.3s ease-in-out;
 }
+
 .hero-section button:hover {
   background-color: rgb(62, 55, 255);
 }
 
 .second-section {
   width: 80%;
-  margin: 120px auto;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 110px 0;
 }
 
 .second-section .text {
   display: flex;
   flex-direction: column;
-  row-gap: 10px;
+  row-gap: 15px;
   align-items: start;
 }
 
@@ -137,3 +146,84 @@ header nav .btn button {
 .second-section .img img {
   border-radius: 48px;
 }
+
+.third-section {
+  width: 80%;
+  margin: 0 auto;
+  padding: 50px 80px 50px 80px;
+  border-radius: 24px;
+  background: rgba(78, 71, 255, 0.1);
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+
+.third-section h1 {
+  color: rgb(37, 36, 50);
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 45px;
+  text-align: center;
+}
+
+.third-section .boxs {
+  display: flex;
+  justify-content: space-around;
+}
+
+.third-section .boxs div {
+  width: 180px;
+  height: 121px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  transition: all 0.3s ease;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 2px;
+}
+
+.third-section .boxs div:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.third-section .boxs div:nth-child(1) h2 {
+  color: rgb(78, 71, 255);
+  font-family: var(--font-Inter);
+}
+.third-section .boxs div:nth-child(2) h2 {
+  color: #ff6b6b;
+  font-family: var(--font-Inter);
+}
+.third-section .boxs div:nth-child(3) h2 {
+  color: #4caf50;
+  font-family: var(--font-Inter);
+}
+
+.third-section .boxs div h2 {
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 97px;
+  text-align: left;
+  transition: color 0.3s ease;
+}
+.third-section .boxs div p {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  transition: color 0.3s ease;
+}
+
+.third-section .boxs div:hover h2 {
+  opacity: 0.9;
+}
+.third-section .boxs div:hover p {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+
+
